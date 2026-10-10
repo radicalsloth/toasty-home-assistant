@@ -1,0 +1,30 @@
+{
+  "title": "Toasty",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect Toasty",
+        "description": "Create an API key in Toasty \u2192 Account settings \u2192 API keys. One key discovers all your screens.",
+        "data": {
+          "api_key": "API key"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Update Toasty API key",
+        "description": "Enter a new key for the same Toasty account.",
+        "data": {
+          "api_key": "API key"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "API key rejected. Check the key in Toasty settings.",
+      "cannot_connect": "Unable to reach Toasty. Try again.",
+      "wrong_account": "Use a key for the originally connected Toasty account."
+    },
+    "abort": {
+      "already_configured": "This Toasty account is already configured.",
+      "reauth_successful": "API key updated."
+    }
+  }
+}
