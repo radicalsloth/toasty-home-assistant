@@ -1,14 +1,14 @@
 {
   "domain": "toasty",
   "name": "Toasty",
-  "version": "0.1.0",
-  "config_flow": true,
-  "documentation": "https://github.com/radicalsloth/toasty-home-assistant",
-  "issue_tracker": "https://github.com/radicalsloth/toasty-home-assistant/issues",
   "codeowners": [
     "@radicalsloth"
   ],
+  "config_flow": true,
+  "documentation": "https://github.com/radicalsloth/toasty-home-assistant",
   "integration_type": "hub",
   "iot_class": "cloud_polling",
-  "requirements": []
+  "issue_tracker": "https://github.com/radicalsloth/toasty-home-assistant/issues",
+  "requirements": [],
+  "version": "0.1.0"
 }
